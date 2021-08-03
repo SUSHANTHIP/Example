@@ -1,0 +1,59 @@
+ul{
+  text-align: end;
+  color: rgb(11, 12, 12);
+  font-size: large;
+  
+  
+}
+
+
+h1{
+  text-align: center;
+  color: #0e1516;
+  font-size: 50px;
+  font-style:italic;
+  font-family:'Courier New', Courier, monospace;
+  text-decoration: bold;
+  
+}
+h2{
+  text-align: center;
+  color: #070707;
+  font-size: 30px;
+  font-style:italic;
+  font-family:cursive;
+  text-decoration: bold;
+}
+p{
+  text-align: center;
+  font-size: 20px;
+}
+body{
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-recruitment-poster-advertising-background-image_164513.jpg);
+  background-attachment: local; 
+  text-align: center;
+ 
+}
+form{
+  text-align: center;
+  
+  font-style: bold;
+  
+ 
+  font-size: 20px;
+  
+}
+
+legend{
+  font-size: larger;
+  
+   
+}
+
+marquee{
+  width: fit;
+  direction: down;
+  height: 100px;
+
+}
+
