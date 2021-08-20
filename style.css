@@ -1,59 +1,1176 @@
-ul{
-  text-align: end;
-  color: rgb(11, 12, 12);
-  font-size: large;
-  
-  
+/*-----------------HOMEPAGE---------------------*/
+body
+{
+    margin: 0;
+    
+    padding: 0;
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/06/plain-black-09.jpg)
+}
+
+.main
+{
+    position: relative;
+    height: 100vh;
+    width:100%;
+    color: #fff;
+}
+.main .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+.main .navbar{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 2% 0 0 0;
+    padding: 10px 0;
+    display:flex;
+    align-items: center;
+}
+.main .navbar .SPtechsolution{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    left: 10%;
+    cursor: pointer;
+    box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+    
+} 
+.main .SPtechsolution:hover{
+    color: rgba(0, 0, 0, 0.4);
+}
+.main .navbar ul{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    font-family: 'cinzel', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    right: -20%;
+}
+.main .navbar ul li{
+list-style-type: none;
+display: inline-block;
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 2px;
+padding: 10px;
+transition: 0.2s ease-in-out;
+box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+cursor: pointer;
+}
+.main .navbar ul li a{
+    list-style-type: none;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+
+}
+.main .navbar ul li :hover{
+    background: rgba(0, 0, 0, 0.4);
+}
+.main .heading{
+    position: absolute;
+    height:auto;
+    width:100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.main .heading .head{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-shadow: 0px 0.5px 5px rgba(151, 60, 60, 0.5);
+}
+.main .heading .head span{
+    color: #2491c4;
+
+}
+
+.main .heading .sub{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align:center;
+    font-family: 'cinzel',sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+    margin: -2% 0 2% 0;
+}
+.main .heading .btns{
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .heading .btns a{
+    margin-left: 1%;
+    font-size: 18px;
+    font-family: 'cinzel',sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+    transition: 0.5s ease-in-out;
+}
+.main .heading .btns a:hover{
+    background: #017fb5;
+    border:2px solid #017fb5;
+}
+.main .heading .btns .btn2{
+    background:#017fb5;
+    border: 2px solid #017fb5;
+}
+
+/*-----------------------REGISTER PAGE----------------------------*/
+.register body {
+
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/06/plain-black-09.jpg)
+}
+.register
+{
+    position: relative;
+    height: 100vh;
+    width:100%;
+    color: #fff;
+}
+.register .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+.register .navbar{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 2% 0 0 0;
+    padding: 10px 0;
+    display:flex;
+    align-items: center;
+}
+.register .navbar .SPtechsolution{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    left: 10%;
+    cursor: pointer;
+    box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+    
+} 
+.register .SPtechsolution:hover{
+    color: rgba(0, 0, 0, 0.4);
+}
+.register .navbar ul{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    font-family: 'cinzel', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    right: -20%;
+}
+.register .navbar ul li{
+list-style-type: none;
+display: inline-block;
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 2px;
+padding: 10px;
+transition: 0.2s ease-in-out;
+box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+cursor: pointer;
+}
+.register .navbar ul li a{
+    list-style-type: none;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+
+}
+.register .navbar ul li :hover{
+    background: rgba(0, 0, 0, 0.4);
+}
+.register .heading{
+    position: absolute;
+    height:auto;
+    width:100%;
+    top: 350%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.register .form{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-shadow: 0px 0.5px 5px rgba(151, 60, 60, 0.5);
+}
+.register .heading .head{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-shadow: 0px 0.5px 5px rgba(151, 60, 60, 0.5);
+}
+
+.register .div{
+    margin: 0px auto;
+    width: 35%;
+    padding: 30px;
+    font-size: 20px;
+    background-color: rgb(68, 113, 158);
+}
+.register .input[type=text],select{
+    width: 10%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing:border-box;
+    font-size: 14px;
+}
+.register .heading .btns{
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register .heading .btns a{
+    margin-left: 1%;
+    font-size: 18px;
+    font-family: 'cinzel',sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+    transition: 0.5s ease-in-out;
+}
+.register .heading .btns a:hover{
+    background: #017fb5;
+    border:2px solid #017fb5;
+}
+.register .heading .head span{
+    color: #2491c4;
+
+}
+
+/*----------------------NEXTPAGE--------------------------------------*/
+.next body {
+
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/06/plain-black-09.jpg)
+}
+.next
+{
+    position: relative;
+    height: 100vh;
+    width:100%;
+    color: #fff;
+}
+.next .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+.next .navbar{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 2% 0 0 0;
+    padding: 10px 0;
+    display:flex;
+    align-items: center;
+}
+.next .navbar .SPtechsolution{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    left: 10%;
+    cursor: pointer;
+    box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+    
+} 
+.next .SPtechsolution:hover{
+    color: rgba(0, 0, 0, 0.4);
+}
+.next .navbar ul{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    font-family: 'cinzel', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    right: -20%;
+}
+.next .navbar ul li{
+list-style-type: none;
+display: inline-block;
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 2px;
+padding: 10px;
+transition: 0.2s ease-in-out;
+box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+cursor: pointer;
+}
+.next .navbar ul li a{
+    list-style-type: none;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+
+}
+.next .navbar ul li :hover{
+    background: rgba(0, 0, 0, 0.4);
+}
+.next .heading{
+    position: absolute;
+    height:auto;
+    width:100%;
+    top: 90%;
+    transform: translateY(-90%);
+    text-align: justify; 
+    text-align: center;
+    bottom: 100%;
+}
+.next .heading .head{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-shadow: 0px 0.5px 5px rgba(151, 60, 60, 0.5);
+}
+.next .heading .head span{
+    color: #2491c4;
+
+}
+.next .heading .btns{
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next .heading .btns a{
+    margin-left: 1%;
+    font-size: 18px;
+    font-family: 'cinzel',sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+    transition: 0.5s ease-in-out;
+}
+.next .heading .btns a:hover{
+    background: #017fb5;
+    border:2px solid #017fb5;
 }
 
 
-h1{
-  text-align: center;
-  color: #0e1516;
-  font-size: 50px;
-  font-style:italic;
-  font-family:'Courier New', Courier, monospace;
-  text-decoration: bold;
-  
-}
-h2{
-  text-align: center;
-  color: #070707;
-  font-size: 30px;
-  font-style:italic;
-  font-family:cursive;
-  text-decoration: bold;
-}
-p{
-  text-align: center;
-  font-size: 20px;
-}
-body{
-  background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-recruitment-poster-advertising-background-image_164513.jpg);
-  background-attachment: local; 
-  text-align: center;
- 
-}
-form{
-  text-align: center;
-  
-  font-style: bold;
-  
- 
-  font-size: 20px;
-  
+
+
+
+
+
+
+
+
+/*---------------------------SUBMITPAGE------------------------------------------*/
+.submit body
+{
+    margin: 0;
+    
+    padding: 0;
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/06/plain-black-09.jpg)
 }
 
-legend{
-  font-size: larger;
-  
-   
+.submit
+{
+    position: relative;
+    height: 100vh;
+    width:100%;
+    color: #fff;
+}
+.submit .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+.submit .navbar{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 2% 0 0 0;
+    padding: 10px 0;
+    display:flex;
+    align-items: center;
+}
+.submit .navbar .SPtechsolution{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    left: 10%;
+    cursor: pointer;
+    box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+    
+} 
+.submit .SPtechsolution:hover{
+    color: rgba(238, 223, 10, 0.4);
+}
+.submit .navbar ul{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    font-family: 'cinzel', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    right: -20%;
+}
+.submit .navbar ul li{
+list-style-type: none;
+display: inline-block;
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 2px;
+padding: 10px;
+transition: 0.2s ease-in-out;
+box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+cursor: pointer;
+}
+.submit .navbar ul li a{
+    list-style-type: none;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+
+}
+.submit .navbar ul li :hover{
+    background: rgba(0, 0, 0, 0.4);
+}
+.submit .heading{
+    position: absolute;
+    height:auto;
+    width:100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    
+}
+.submit .heading .head{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-shadow: 0px 0.5px 5px rgba(151, 60, 60, 0.5);
+}
+.submit .heading .head span{
+    color: #12b9d6;
+
 }
 
-marquee{
-  width: fit;
-  direction: down;
-  height: 100px;
+
+/*-------------------CARRERPAGE-----------------------*/
+.carrertip body
+{
+    margin: 0;
+    
+    padding: 0;
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/06/plain-black-09.jpg)
+}
+
+.carrertip
+{
+    position: relative;
+    height: 100vh;
+    width:100%;
+    color: #fff;
+}
+.carrertip .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+.carrertip .navbar{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 2% 0 0 0;
+    padding: 10px 0;
+    display:flex;
+    align-items: center;
+}
+.carrertip .navbar .SPtechsolution{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    left: 10%;
+    cursor: pointer;
+    box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+    
+} 
+.carrertip .SPtechsolution:hover{
+    color: rgba(0, 0, 0, 0.4);
+}
+.carrertip .navbar ul{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    font-family: 'cinzel', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    right: -20%;
+}
+.carrertip .navbar ul li{
+list-style-type: none;
+display: inline-block;
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 2px;
+padding: 10px;
+transition: 0.2s ease-in-out;
+box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+cursor: pointer;
+}
+.carrertip .navbar ul li a{
+    list-style-type: none;
+    display: block;
+    color: #fff;
+    text-decoration: none;
 
 }
+.carrertip .navbar ul li :hover{
+    background: rgba(0, 0, 0, 0.4);
+}
+.carrertip .heading{
+    position: absolute;
+    height:auto;
+    width:100%;
+    top: 25%;
+    transform: translateY(-25%);
+    text-align: center;
+    bottom: 50%;
+}
+.carrertip .heading .head{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-shadow: 0px 0.5px 5px rgba(151, 60, 60, 0.5);
+}
+.carrertip .heading .head span{
+    color: #2491c4;
+
+}
+
+.carrertip .heading .sub{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align:center;
+    font-family: 'cinzel',sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-shadow: 0px 0.5px 5px rgba(31, 34, 17, 0.5);
+    color: rgb(204, 166, 195);
+    margin: -2% 0 2% 0;
+}
+
+/*------------------------ABOUTPAGE-----------------------------------*/
+.about body
+{
+    margin: 0;
+    
+    padding: 0;
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/06/plain-black-09.jpg)
+}
+
+.about
+{
+    position: relative;
+    height: 100vh;
+    width:100%;
+    color: #fff;
+}
+.about .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+.about .navbar{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 2% 0 0 0;
+    padding: 10px 0;
+    display:flex;
+    align-items: center;
+}
+.about .navbar .SPtechsolution{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    left: 10%;
+    cursor: pointer;
+    box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+    
+} 
+.about .SPtechsolution:hover{
+    color: rgba(0, 0, 0, 0.4);
+}
+.about .navbar ul{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    font-family: 'cinzel', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    right: -20%;
+}
+.about .navbar ul li{
+list-style-type: none;
+display: inline-block;
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 2px;
+padding: 10px;
+transition: 0.2s ease-in-out;
+box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+cursor: pointer;
+}
+.about .navbar ul li a{
+    list-style-type: none;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+
+}
+.about .navbar ul li :hover{
+    background: rgba(0, 0, 0, 0.4);
+}
+.about .heading{
+    position: absolute;
+    height:auto;
+    width:100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.about .heading .head{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-shadow: 0px 0.5px 5px rgba(151, 60, 60, 0.5);
+}
+.about .heading .head span{
+    color: #2491c4;
+
+}
+/*------------------------CONTACTUS-----------------------------------*/
+.contact body
+{
+    margin: 0;
+    
+    padding: 0;
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/06/plain-black-09.jpg)
+}
+
+.contact
+{
+    position: relative;
+    height: 100vh;
+    width:100%;
+    color: #fff;
+}
+.contact .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+.contact .navbar{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 2% 0 0 0;
+    padding: 10px 0;
+    display:flex;
+    align-items: center;
+}
+.contact .navbar .SPtechsolution{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    left: 10%;
+    cursor: pointer;
+    box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+    
+} 
+.contact .SPtechsolution:hover{
+    color: rgba(0, 0, 0, 0.4);
+}
+.contact .navbar ul{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    font-family: 'cinzel', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    right: -20%;
+}
+.contact .navbar ul li{
+list-style-type: none;
+display: inline-block;
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 2px;
+padding: 10px;
+transition: 0.2s ease-in-out;
+box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+cursor: pointer;
+}
+.contact .navbar ul li a{
+    list-style-type: none;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+
+}
+.contact .navbar ul li :hover{
+    background: rgba(0, 0, 0, 0.4);
+}
+.contact .heading{
+    position: absolute;
+    height:auto;
+    width:100%;
+    top: 135%;
+    transform: translateY(-135%);
+    text-align: center;
+}
+.contact .heading .head{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-shadow: 0px 0.5px 5px rgba(151, 60, 60, 0.5);
+}
+.contact .heading .head span{
+    color: #2491c4;
+}
+    .contact .heading .sub{
+        position: relative;
+        height: auto;
+        width: 100%;
+        text-align:center;
+        font-family: 'cinzel',sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        text-shadow: 0px 0.5px 5px rgba(31, 34, 17, 0.5);
+        
+        margin: -2% 0 2% 0;
+    }
+    .contact .heading .btns{
+        position: relative;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact .heading .btns a{
+        margin-left: 1%;
+        font-size: 18px;
+        font-family: 'cinzel',sans-serif;
+        font-weight: 300;
+        cursor: pointer;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        box-sizing: border-box;
+        box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.5);
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 2px;
+        transition: 0.5s ease-in-out;
+    }
+    .contact .heading .btns a:hover{
+        background: #017fb5;
+        border:2px solid #017fb5;
+    }
+
+/*--------------------LOGINPAGE-------------------------*/
+.login body
+{
+    margin: 0;
+    
+    padding: 0;
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/06/plain-black-09.jpg)
+}
+.login
+{
+    position: relative;
+    height: 100vh;
+    width:100%;
+    color: #fff;
+    box-sizing: border-box;
+}
+.login .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+.login .navbar{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 2% 0 0 0;
+    padding: 10px 0;
+    display:flex;
+    align-items: center;
+}
+.login .navbar .SPtechsolution{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    left: 10%;
+    cursor: pointer;
+    box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+    
+} 
+.login .SPtechsolution:hover{
+    color: rgba(0, 0, 0, 0.4);
+}
+.login .navbar ul{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    font-family: 'cinzel', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    right: -20%;
+}
+.login .navbar ul li{
+list-style-type: none;
+display: inline-block;
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 2px;
+padding: 10px;
+transition: 0.2s ease-in-out;
+box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+cursor: pointer;
+}
+.login .navbar ul li a{
+    list-style-type: none;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+
+}
+.login .heading{
+    position: absolute;
+    height:auto;
+    width:100%;
+    top: 40%;
+    transform: translateY(-40%);
+    text-align: center;
+}
+.login .heading .head{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-shadow: 0px 0.5px 5px rgba(151, 60, 60, 0.5);
+}
+.login .heading .head span{
+    color: #2491c4;
+
+}
+
+.login .heading .btns{
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login .heading .btns a{
+    margin-left: 1%;
+    font-size: 18px;
+    font-family: 'cinzel',sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+    transition: 0.5s ease-in-out;
+}
+.login .heading .btns a:hover{
+    background: #017fb5;
+    border:2px solid #017fb5;
+}
+.login .heading .btns .btn2{
+    background:#017fb5;
+    border: 2px solid #017fb5;
+}
+
+
+/*-------------------SIGNUP PAGE------------------------------*/
+
+.signup body
+{
+    margin: 0;
+    
+    padding: 0;
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/06/plain-black-09.jpg)
+}
+.signup
+{
+    position: relative;
+    height: 100vh;
+    width:100%;
+    color: #fff;
+}
+.signup .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+.signup .navbar{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 2% 0 0 0;
+    padding: 10px 0;
+    display:flex;
+    align-items: center;
+}
+.signup .navbar .SPtechsolution{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    left: 10%;
+    cursor: pointer;
+    box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+    
+} 
+.signup .SPtechsolution:hover{
+    color: rgba(0, 0, 0, 0.4);
+}
+.signup .navbar ul{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    font-family: 'cinzel', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    right: -20%;
+}
+.signup .navbar ul li{
+list-style-type: none;
+display: inline-block;
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 2px;
+padding: 10px;
+transition: 0.2s ease-in-out;
+box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+cursor: pointer;
+}
+.signup .navbar ul li a{
+    list-style-type: none;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+
+}
+.signup .heading{
+    position: absolute;
+    height:auto;
+    width:100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.signup .heading .head{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-shadow: 0px 0.5px 5px rgba(151, 60, 60, 0.5);
+}
+.signup .heading .head span{
+    color: #2491c4;
+
+}
+.signup .heading .btns{
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup .heading .btns a{
+    margin-left: 1%;
+    font-size: 18px;
+    font-family: 'cinzel',sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+    transition: 0.5s ease-in-out;
+}
+.signup .heading .btns a:hover{
+    background: #017fb5;
+    border:2px solid #017fb5;
+}
+.signup .heading .btns .btn2{
+    background:#017fb5;
+    border: 2px solid #017fb5;
+}
+
 
